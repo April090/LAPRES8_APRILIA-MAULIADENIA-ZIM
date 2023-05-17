@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-color:rgb(31, 36, 45);
+    --second-bg-color:#ffc0cb;
+    
+  }
+body{
+    background-color:var(--second-bg-color) ;
+}
+.row{
+    margin-top: 7%;
+}
+h1{
+    text-align: center;
+}
+h1 span{
+    color: var(--bg-color);
+}
+.navbar-brand span{
+    color: var(--second-bg-color);
+    font-size: 130%;
+    font-weight: bold;
+}
+a.navbar-brand  {
+    font-size: medium ;
+}
+.offcanvas-body button{
+    position: absolute;
+    bottom: 15px;
+    width: 98%;
+    right: 10px;
+    font-weight: bold;
+    left: 5px;
+    text-align: center;
+    background-color: red;
+    border-color: black;
+}
